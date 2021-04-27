@@ -6,7 +6,7 @@ namespace api_calculo.Controllers
     [ApiController]
     public class CodeController : ControllerBase
     {
-        private readonly string githubUrl = "";
+        private readonly string githubUrl = "https://github.com/julioverissimo88/softplan.git";
 
         [HttpGet("showmethecode")]
         public IActionResult ShowMeThecode()
